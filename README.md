@@ -92,8 +92,8 @@ Na primeira execução, o RustFy cria automaticamente o arquivo:
 Exemplo de configuração:
 
 ```toml
-base_url = "https://ntfy.pvtlab.online"
-topics = ["Homelab", "alertas"]
+base_url = "https://ntfy.sh"
+topics = ["alertas", "servidor"]
 reconnect_delay = 10
 ```
 
@@ -126,7 +126,7 @@ curl -H "X-Title: Teste" \
      -H "X-Priority: 5" \
      -H "X-Icon: https://ntfy.sh/static/img/ntfy.png" \
      -d "Mensagem de teste do RustFy!" \
-     https://ntfy.pvtlab.online/Homelab
+     https://ntfy.sh/alertas
 ```
 
 ---
